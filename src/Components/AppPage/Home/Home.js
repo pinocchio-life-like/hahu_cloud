@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Home.css";
 import Header from "../../AppLayout/Header/Header";
-import { Button, Input, Space } from "antd";
+import { Button, Input } from "antd";
 import { SearchOutlined, CheckOutlined } from "@ant-design/icons";
 import dotEt from "../../../Images/hahu_et.png";
 import dotCom from "../../../Images/com.png";
