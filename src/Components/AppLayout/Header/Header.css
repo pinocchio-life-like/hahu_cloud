@@ -1,0 +1,97 @@
+.Header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    /* Adjust transparency here */
+    backdrop-filter: blur(10px);
+    /* Adjust blur strength here */
+    z-index: 999;
+}
+
+.HeaderDark {
+    background-color: rgba(21, 29, 59, 0.8);
+}
+
+.HeaderLight {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.HeaderLogo {
+    display: flex;
+    align-items: center;
+    margin-left: 8%;
+    height: 80%;
+    width: 11.4%;
+}
+
+.LogoSeparate {
+    border: 0.1px solid #b0aeaec3;
+    height: 60%;
+    margin-left: 3%;
+    margin-top: 4%;
+}
+
+.SvgHahuLogo {
+    display: flex;
+    align-items: center;
+}
+
+.SvgHahuLogo:hover {
+    cursor: pointer;
+}
+
+.SvgFlagLogo {
+    padding-top: 4%;
+    display: flex;
+    align-items: center;
+    width: 40px;
+    height: 60%;
+    margin-left: 6%;
+}
+
+.DarkModeSetDiv {
+    background-color: none;
+    border: none;
+}
+
+.DarkModeSetButton {
+    background: none;
+    border: none;
+    margin-right: 25px;
+}
+
+.HeaderMenuList {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.HeaderListText {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    letter-spacing: 10;
+    font-weight: 600;
+    font-size: small;
+}
+
+.HeaderListText:hover {
+    cursor: pointer;
+}
+
+.LoginButtonClass {
+    font-weight: 700;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 35px;
+    background-color: rgb(233, 233, 233);
+    color: rgb(63, 154, 245);
+}
