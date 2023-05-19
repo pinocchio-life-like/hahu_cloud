@@ -945,8 +945,8 @@ const Home = (props) => {
         style={{
           display: "flex",
           justifyContent: "space-between",
-          marginLeft: "30%",
-          marginRight: "30%",
+          marginLeft: "32%",
+          marginRight: "32%",
           marginTop: 30,
         }}>
         <img style={{ width: 203, height: 60 }} src={tekle} alt="" />
